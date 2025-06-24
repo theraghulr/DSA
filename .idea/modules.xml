@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch2D/BinarySearch2D.iml" filepath="$PROJECT_DIR$/BinarySearch2D/BinarySearch2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchProblems/BinarySearchProblems.iml" filepath="$PROJECT_DIR$/BinarySearchProblems/BinarySearchProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/HashSet/HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LInkedList/LInkedList.iml" filepath="$PROJECT_DIR$/LInkedList/LInkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP1/OOP1.iml" filepath="$PROJECT_DIR$/OOP1/OOP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP3/OOP3.iml" filepath="$PROJECT_DIR$/OOP3/OOP3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecurssionArray/RecurssionArray.iml" filepath="$PROJECT_DIR$/RecurssionArray/RecurssionArray.iml" />
+    </modules>
+  </component>
+</project>

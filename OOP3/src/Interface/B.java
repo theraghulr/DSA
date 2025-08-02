@@ -1,4 +1,5 @@
 package Interface;
 
-public interface B {
+public interface B extends A {
+    void MethodC ();
 }

@@ -1,6 +1,6 @@
 public class ArrayToLinkedList {
     public static void main(String[] args) {
-        int [] arr = { 12,4,5,8};
+        int [] arr = {12,6,89,23};
 
         Node head = ConvertArr2LL(arr);// Convert Array To linked list
         // Traverse in LinkedList
@@ -13,16 +13,18 @@ public class ArrayToLinkedList {
         System.out.println();
 
 
-        System.out.println(CheckIfPresent(head, 4)); // Search in Linked List
-        System.out.println(lenghtofLL(head));// Traverse In LinkedList;
-        head = RemoveHead(head);
-        System.out.println(head); // Remove head of the linked list;
+
+
+//        System.out.println(CheckIfPresent(head, 4)); // Search in Linked List
+//        System.out.println(lenghtofLL(head));// Traverse In LinkedList;
+//        head = RemoveHead(head);
+//        System.out.println(head); // Remove head of the linked list;
         head = RemoveTail(head);
         System.out.println(head); // Remove Tail of the linked list;
-        System.out.println(RemoveK(head,3));
-        System.out.println(RemoveElement(head, 8));
-        System.out.println(InsertElement(head,56));
-        System.out.println(insertTail(head,13));
+//        System.out.println(RemoveK(head,3));
+//        System.out.println(RemoveElement(head, 8));
+//        System.out.println(InsertElement(head,56));
+//        System.out.println(insertTail(head,13));
    }
     // Converting Array into LinkedList
 
@@ -64,7 +66,7 @@ public class ArrayToLinkedList {
 
     private static  Node RemoveHead (Node head){
         if(head == null){
-            return head;
+            return null;
         }
         head = head.next;
         return head;

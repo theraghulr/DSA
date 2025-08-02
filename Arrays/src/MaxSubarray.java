@@ -4,23 +4,19 @@ public class MaxSubarray {
         System.out.println(maxSubArray(nums));
 
     }
-    public static int maxSubArray(int[] nums) {
+    static int maxSubArray(int[] nums){
         int max = Integer.MIN_VALUE;
-        int sum =0;
+        int sum = 0;
 
-        for(int i =0; i<nums.length; i++){
-            sum += nums[i];
-            max = Math.max(max, sum);
+        for(int i = 0; i<nums.length; i++){
+            sum = sum + nums[i];
+            max = Math.max(max,sum);
 
-            if(sum>max){
-                sum = max;
-
-            }
-
-            if(sum<0){ // Drop the sum to 0 when the value goes negative -1
-                sum=0;
+            if(sum<0){
+                sum = 0;
             }
         }
+
         return max;
     }
 }

@@ -6,12 +6,13 @@ class Node{
         this.data = data1;
         this.next= next1;
     }
-    Node(int data1){
-        this.data=data1;
+    Node(int data){
+        this.data=data;
         this.next=null;
     }
     @Override
     public String toString() {
+
         return String.valueOf(data);
     }
 };

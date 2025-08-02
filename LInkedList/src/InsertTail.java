@@ -3,13 +3,11 @@ public class InsertTail {
         int [] arr = { 12,4,5,8};
 
         Node head = ConvertArr2LL(arr);// Convert Array To linked list
-        printList(head);
+//        printList(head);
         printList(insertTail(head,56));
         printList(InsertElement(head,12,3));
         printList(InsertBeforevalue(head,69,8));
-
     }
-
 // Traverse the linked list
     private static void printList(Node head) {
         Node temp = head;
@@ -55,9 +53,7 @@ public class InsertTail {
         if(k==1){
             return new Node(el, head);
         }
-
         int count = 0;
-
         Node temp = head;
 
         while(temp!=null){

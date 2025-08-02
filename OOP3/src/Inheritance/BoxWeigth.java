@@ -6,7 +6,7 @@ public class BoxWeigth extends Box {
     double weight;
 
    public BoxWeigth(){
-        this.weight=-1;
+       this.weight=-1;
     }
 
     public BoxWeigth(double l,double h,double w,double weight){

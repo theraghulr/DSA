@@ -21,11 +21,9 @@ public class MergeTwoArray {
                 nums1[k--] = nums2[j--];
             }
         }
-
         // If nums2 is left
         while (j >= 0) {
             nums1[k--] = nums2[j--];
         }
     }
 }
-

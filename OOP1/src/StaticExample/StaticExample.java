@@ -8,7 +8,13 @@ public class StaticExample {
         Person Kunal2 = new Person(22,"kunal",false);
 
 
-        System.out.println(Person.population);
+        Person Rahh = new Person(22,"Raghul");
+
+        System.out.println(Rahh.name);
+
+
+
+//        System.out.println(Person.population);
 
 
 

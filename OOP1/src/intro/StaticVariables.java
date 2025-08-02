@@ -8,10 +8,10 @@ public class StaticVariables {
         Human(int age){
             this.age=age;
         }
-        @Override
-        public int toString(){
-            return age;
-        }
+//        @Override
+//        public int toString(){
+//            return age;
+//        }
 
     }
 

@@ -27,21 +27,25 @@ import java.util.Scanner;
 
 public class CountingOccurance {
     public static void main(String[] args) {  // Fixed the method declaration
-        Scanner in = new Scanner(System.in);  // Scanner must be inside the method
+     int n = 23542;
+     int target = 2;
+     int result  = Counting(n,target);
+        System.out.println(result);
 
-        int n = in.nextInt();
+    }
+
+    public static int Counting (int n , int target){
         int count = 0;
 
-        while (n > 0) {   // Fixed indentation and structure
-            int rem = n % 10;
-            if (rem == 5) {
+        while(n>0){
+            int digit = n% 10;
+
+            if(digit == target){
                 count++;
             }
-            n = n / 10;
+            n = n/10;
         }
-
-        System.out.println(count); // Fixed incorrect system -> System
-        in.close();  // Closing Scanner to prevent resource leaks
+        return count;
     }
 }
 

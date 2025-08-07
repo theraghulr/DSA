@@ -6,13 +6,15 @@ public class CharCounter {
             String S = "Hello World!";
 
             Map<Character, Integer> FreqMap = CountingLetters(S);
-            List<Character> Keys = new ArrayList<>(FreqMap.keySet());
-
-            for(int i = 0; i<Keys.size(); i++){
-                char key = Keys.get(i);
-                int values = FreqMap.get(key);
-                System.out.println("Key "+ key +" Values "+ values);
-            }
+            FreqMap.forEach((key,value)->
+                    System.out.println("element "+key + " value "+ value));
+//            List<Character> Keys = new ArrayList<>(FreqMap.keySet());
+//
+//            for(int i = 0; i<Keys.size(); i++){
+//                char key = Keys.get(i);
+//                int values = FreqMap.get(key);
+//                System.out.println("Key "+ key +" Values "+ values);
+//            }
 
             }
 

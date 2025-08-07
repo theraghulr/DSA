@@ -7,7 +7,6 @@ public class SpiralMatrix {
                 {4, 5, 6},
                 {7, 8, 9}
         };
-
         ArrayList<Integer> result = spiralPrinting(matrix);
         System.out.println(result);
 

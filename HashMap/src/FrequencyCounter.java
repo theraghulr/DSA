@@ -11,8 +11,8 @@ public class FrequencyCounter {
 
       Map<Integer,Integer> FreqMap = Counting(arr);
 
-        FreqMap.forEach((key, value) ->
-                System.out.println("Element: " + key + ", Frequency: " + value)
+        FreqMap.forEach((mey, value) ->
+                System.out.println("Element: " + mey + ", Frequency: " + value)
         );
     }
 

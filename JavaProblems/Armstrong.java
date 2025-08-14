@@ -1,6 +1,6 @@
 public class Armstrong {
     public static void main(String[] args) {
-        int num = 159;
+        int num = 156;
 
         if (isArmstrong(num)) {
             System.out.println(num + " is an Armstrong number.");
